@@ -141,13 +141,28 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 2.8rem 2.4rem;
+    padding: 2.4rem 2.4rem;
 }
 
 .hero .hero-summary .item {
     display: flex;
     align-items: center;
-    gap: 0.4rem;
+    gap: 1.6rem;
+    margin: 1.4rem 0;
+}
+
+.hero .hero-summary .label {
+    color: #5f5b53;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 2.6rem;
+}
+
+.hero .hero-summary .title {
+    color: #171100;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 3rem;
 }
 
 .hero .content-block {
