@@ -448,3 +448,57 @@ a {
     font-weight: 400;
     line-height: 4rem;
 }
+
+/*========= Features =========*/
+.features {
+    margin: 20rem 0;
+}
+
+.features .body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.features .images {
+    display: flex;
+    gap: 3rem;
+}
+.features .images img {
+    width: 27rem;
+    height: 40.5rem;
+    object-fit: cover;
+    border-radius: 1.6rem;
+}
+
+.features .images img:first-child {
+    margin-top: 34px;
+}
+
+.features .content {
+    width: 41%;
+}
+
+.features .content .heading {
+    color: #171100;
+    font-family: Sen;
+    font-size: 3.8rem;
+    font-weight: 700;
+    line-height: 4.8rem;
+    letter-spacing: -0.076rem;
+}
+
+.features .content .desc {
+    margin-top: 1.6rem;
+    color: #5f5b53;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.8rem;
+}
+
+.features .content .btn {
+    margin-top: 3.2rem;
+    background-color: var(--primary-color);
+    width: 137px;
+    border-radius: 26px;
+}
