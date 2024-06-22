@@ -44,6 +44,21 @@ a {
     opacity: 0.9;
 }
 
+.line-clamp {
+    display: -webkit-box;
+    -webkit-line-clamp: var(--line-clamp, 1);
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.line-clamp.line-2 {
+    --line-clamp: 2;
+}
+
+.w-break {
+    word-break: break-all;
+    }
+
 /*========= Header =========*/
 .header {
     background: #fffcf4;
@@ -276,7 +291,8 @@ a {
 }
 
 .course-item {
-    width: 37rem;
+    margin-top: 5.5rem;
+    width: calc(100% -2px);
     height: 46.6rem;
     border-radius: 1.2rem;
     border: 1px solid #e2dfda;
@@ -309,6 +325,7 @@ a {
 }
 
 .course-item .title a {
+    padding: 6px;
     color: #171100;
     font-size: 1.8rem;
     font-weight: 600;
