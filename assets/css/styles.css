@@ -237,3 +237,34 @@ a {
 .hero .stats strong:nth-child(2) {
     margin-left: 2.8rem;
 }
+
+/*========= Popular =========*/
+.popular {
+    margin: 20rem 0;
+}
+
+.popular .popular-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.popular .popular-top .info {
+    width: 45.8rem;
+}
+
+.popular .popular-top .heading {
+    color: #171100;
+    font-family: Sen;
+    font-size: 3.8rem;
+    font-weight: 700;
+    line-height: 4.8rem;
+    letter-spacing: -0.076rem;
+}
+
+.popular .popular-top .desc {
+    color: #5f5b53;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 3rem;
+}
