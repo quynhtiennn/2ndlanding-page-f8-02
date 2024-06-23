@@ -502,3 +502,20 @@ a {
     width: 137px;
     border-radius: 26px;
 }
+
+/*========= Features =========*/
+.features-2nd .body {
+    flex-direction: row-reverse;
+}
+
+.features-2nd .content {
+    width: 49%;
+}
+
+.features .images {
+    width: 41%;
+}
+
+.features .images img {
+    width: 100%;
+}
